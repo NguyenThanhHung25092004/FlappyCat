@@ -1,0 +1,2587 @@
+fileFormatVersion: 2
+guid: f0b397ea164057e49b3fd24f2ffa1e6a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7677916698361898836
+    second: AllTogetherCats_0
+  - first:
+      213: 2628796638078356657
+    second: AllTogetherCats_1
+  - first:
+      213: -1620630170133478153
+    second: AllTogetherCats_2
+  - first:
+      213: 2533511307441971610
+    second: AllTogetherCats_3
+  - first:
+      213: -5403148163644773510
+    second: AllTogetherCats_4
+  - first:
+      213: -6034683038563247833
+    second: AllTogetherCats_5
+  - first:
+      213: -4371225313972417461
+    second: AllTogetherCats_6
+  - first:
+      213: -4339590498716865952
+    second: AllTogetherCats_7
+  - first:
+      213: 4100070355464281924
+    second: AllTogetherCats_8
+  - first:
+      213: -5511264059300492091
+    second: AllTogetherCats_9
+  - first:
+      213: 4856526670926292763
+    second: AllTogetherCats_10
+  - first:
+      213: -7936427508995838759
+    second: AllTogetherCats_11
+  - first:
+      213: -4729933179600748501
+    second: AllTogetherCats_12
+  - first:
+      213: 2250510959414601262
+    second: AllTogetherCats_13
+  - first:
+      213: -3674581137581339985
+    second: AllTogetherCats_14
+  - first:
+      213: -546556808141820217
+    second: AllTogetherCats_15
+  - first:
+      213: 6391474080652759821
+    second: AllTogetherCats_16
+  - first:
+      213: -8872901847522062030
+    second: AllTogetherCats_17
+  - first:
+      213: -7099195278568909625
+    second: AllTogetherCats_18
+  - first:
+      213: -1825875021298703657
+    second: AllTogetherCats_19
+  - first:
+      213: -1263893914851563600
+    second: AllTogetherCats_20
+  - first:
+      213: 7658953997497337373
+    second: AllTogetherCats_21
+  - first:
+      213: 8489509502549661716
+    second: AllTogetherCats_22
+  - first:
+      213: 8405381090675327197
+    second: AllTogetherCats_23
+  - first:
+      213: 2983107757933502739
+    second: AllTogetherCats_24
+  - first:
+      213: 8978508973091730774
+    second: AllTogetherCats_25
+  - first:
+      213: -2289204717438664697
+    second: AllTogetherCats_26
+  - first:
+      213: -1396942529944614632
+    second: AllTogetherCats_27
+  - first:
+      213: -6423462779826007637
+    second: AllTogetherCats_28
+  - first:
+      213: -205193419909359771
+    second: AllTogetherCats_29
+  - first:
+      213: 2636172317808614311
+    second: AllTogetherCats_30
+  - first:
+      213: 919259094340708265
+    second: AllTogetherCats_31
+  - first:
+      213: -1056907539235190801
+    second: AllTogetherCats_32
+  - first:
+      213: -7955154683506034353
+    second: AllTogetherCats_33
+  - first:
+      213: 3539807444400555920
+    second: AllTogetherCats_34
+  - first:
+      213: -139008709820387108
+    second: AllTogetherCats_35
+  - first:
+      213: -930096347925090224
+    second: AllTogetherCats_36
+  - first:
+      213: -1610157808845665693
+    second: AllTogetherCats_37
+  - first:
+      213: -4620181709547721258
+    second: AllTogetherCats_38
+  - first:
+      213: 7742581551903320309
+    second: AllTogetherCats_39
+  - first:
+      213: 3453662135523247976
+    second: AllTogetherCats_40
+  - first:
+      213: -1455758943126521775
+    second: AllTogetherCats_41
+  - first:
+      213: -7791070410805547209
+    second: AllTogetherCats_42
+  - first:
+      213: -7700649326653932884
+    second: AllTogetherCats_43
+  - first:
+      213: -2574116379585936906
+    second: AllTogetherCats_44
+  - first:
+      213: 1377183769048820095
+    second: AllTogetherCats_45
+  - first:
+      213: 2567274050902576918
+    second: AllTogetherCats_46
+  - first:
+      213: 5530708875394968990
+    second: AllTogetherCats_47
+  - first:
+      213: 3440124839232890440
+    second: AllTogetherCats_48
+  - first:
+      213: -3734242290914845697
+    second: AllTogetherCats_49
+  - first:
+      213: 2391473583188346410
+    second: AllTogetherCats_50
+  - first:
+      213: 3146389181483542346
+    second: AllTogetherCats_51
+  - first:
+      213: 3695926847303349355
+    second: AllTogetherCats_52
+  - first:
+      213: 3582213238297954567
+    second: AllTogetherCats_53
+  - first:
+      213: 8609094244755407228
+    second: AllTogetherCats_54
+  - first:
+      213: 7283172705490477419
+    second: AllTogetherCats_55
+  - first:
+      213: 3810007746634132609
+    second: AllTogetherCats_56
+  - first:
+      213: -1975772848218022887
+    second: AllTogetherCats_57
+  - first:
+      213: 611375192538412697
+    second: AllTogetherCats_58
+  - first:
+      213: -4077365530459322994
+    second: AllTogetherCats_59
+  - first:
+      213: -8372237712446481768
+    second: AllTogetherCats_60
+  - first:
+      213: 134776912009831323
+    second: AllTogetherCats_61
+  - first:
+      213: -238877119246991919
+    second: AllTogetherCats_62
+  - first:
+      213: -4738707095683010589
+    second: AllTogetherCats_63
+  - first:
+      213: 1377726953982250888
+    second: AllTogetherCats_64
+  - first:
+      213: 1032377096462761837
+    second: AllTogetherCats_65
+  - first:
+      213: -4664823651235685866
+    second: AllTogetherCats_66
+  - first:
+      213: 8896373505538600209
+    second: AllTogetherCats_67
+  - first:
+      213: 2448214715241528242
+    second: AllTogetherCats_68
+  - first:
+      213: 253529219670476786
+    second: AllTogetherCats_69
+  - first:
+      213: 3990812768077724049
+    second: AllTogetherCats_70
+  - first:
+      213: 2945558878417818999
+    second: AllTogetherCats_71
+  - first:
+      213: -3759388888650410548
+    second: AllTogetherCats_72
+  - first:
+      213: -5079676930262000494
+    second: AllTogetherCats_73
+  - first:
+      213: -797339914758252988
+    second: AllTogetherCats_74
+  - first:
+      213: -1862424868369227096
+    second: AllTogetherCats_75
+  - first:
+      213: 2571891434099031541
+    second: AllTogetherCats_76
+  - first:
+      213: 694059433537432355
+    second: AllTogetherCats_77
+  - first:
+      213: 3404555278992914789
+    second: AllTogetherCats_78
+  - first:
+      213: -3247340782744459374
+    second: AllTogetherCats_79
+  - first:
+      213: 8843868718635729359
+    second: AllTogetherCats_80
+  - first:
+      213: -7774348500349559312
+    second: AllTogetherCats_81
+  - first:
+      213: 952444633144495677
+    second: AllTogetherCats_82
+  - first:
+      213: 551180417189010460
+    second: AllTogetherCats_83
+  - first:
+      213: -7145837089742137732
+    second: AllTogetherCats_84
+  - first:
+      213: -4143789277986528420
+    second: AllTogetherCats_85
+  - first:
+      213: -2524179674013230054
+    second: AllTogetherCats_86
+  - first:
+      213: -5406242814626035914
+    second: AllTogetherCats_87
+  - first:
+      213: -6762177736303666247
+    second: AllTogetherCats_88
+  - first:
+      213: 85369135059406265
+    second: AllTogetherCats_89
+  - first:
+      213: 8574235034916031581
+    second: AllTogetherCats_90
+  - first:
+      213: 4009593547060471791
+    second: AllTogetherCats_91
+  - first:
+      213: -113537587014629575
+    second: AllTogetherCats_92
+  - first:
+      213: -1075487416581865055
+    second: AllTogetherCats_93
+  - first:
+      213: -5626415032546728411
+    second: AllTogetherCats_94
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AllTogetherCats_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 287
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca85913317f827590800000000000000
+      internalID: -7677916698361898836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 287
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bcc6674d9c5b7420800000000000000
+      internalID: 2628796638078356657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 287
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4c9ec527d5289e0800000000000000
+      internalID: -1620630170133478153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 287
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91a38a6c17d82320800000000000000
+      internalID: 2533511307441971610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 290
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b262d4f592405b0800000000000000
+      internalID: -5403148163644773510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 292
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729dc52efbf704ca0800000000000000
+      internalID: -6034683038563247833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_6
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 298
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c8a779cb94653c0800000000000000
+      internalID: -4371225313972417461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_7
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 293
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a225dfe6da6c3c0800000000000000
+      internalID: -4339590498716865952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_8
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 290
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44fde83e34066e830800000000000000
+      internalID: 4100070355464281924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_9
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 288
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc440ab98e0483b0800000000000000
+      internalID: -5511264059300492091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_10
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 287
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17a5c6b649d56340800000000000000
+      internalID: 4856526670926292763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_11
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 287
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc2aa4ca352cd190800000000000000
+      internalID: -7936427508995838759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_12
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 287
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20409a55d6eb5eb0800000000000000
+      internalID: -4729933179600748501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_13
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 255
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e26e70b3bcb6b3f10800000000000000
+      internalID: 2250510959414601262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_14
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 255
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa0d149ce3410dc0800000000000000
+      internalID: -3674581137581339985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_15
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 255
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cea2219a7d3a68f0800000000000000
+      internalID: -546556808141820217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 255
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d039c6810d313b850800000000000000
+      internalID: 6391474080652759821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 255
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2315a83c7ce1dd480800000000000000
+      internalID: -8872901847522062030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_18
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 255
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c415cdd1879a7d90800000000000000
+      internalID: -7099195278568909625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_19
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 255
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d26b3f875039a6e0800000000000000
+      internalID: -1825875021298703657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_20
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 255
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b7ae7b4e2fb57ee0800000000000000
+      internalID: -1263893914851563600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_21
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 255
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1603e3f4121a4a60800000000000000
+      internalID: 7658953997497337373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_22
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 255
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41896c8c9ebc0d570800000000000000
+      internalID: 8489509502549661716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 255
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd00d7f7199e5a470800000000000000
+      internalID: 8405381090675327197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_24
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 255
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311a65e53b0266920800000000000000
+      internalID: 2983107757933502739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_25
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 255
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6553ac147521a9c70800000000000000
+      internalID: 8978508973091730774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_26
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 255
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7008bee207c1b30e0800000000000000
+      internalID: -2289204717438664697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_27
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 223
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819040b9b201d9ce0800000000000000
+      internalID: -1396942529944614632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_28
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 223
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba1178c72a64bd6a0800000000000000
+      internalID: -6423462779826007637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_29
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 212
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5671e08fba1072df0800000000000000
+      internalID: -205193419909359771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_30
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 223
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab53b981c0959420800000000000000
+      internalID: 2636172317808614311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_31
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 223
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7a9be964dd1cc00800000000000000
+      internalID: 919259094340708265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_32
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 227
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe7447b513c1551f0800000000000000
+      internalID: -1056907539235190801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_33
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 227
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f49765ca6fc999190800000000000000
+      internalID: -7955154683506034353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_34
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 191
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09747c0bd1cef1130800000000000000
+      internalID: 3539807444400555920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_35
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 191
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0787e9054221ef0800000000000000
+      internalID: -139008709820387108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_36
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 191
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0507907ac42a713f0800000000000000
+      internalID: -930096347925090224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_37
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 159
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ace6bf00297a9e0800000000000000
+      internalID: -1610157808845665693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_38
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 159
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dda6a4c631d1efb0800000000000000
+      internalID: -4620181709547721258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_39
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 159
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8a0b546ec237b60800000000000000
+      internalID: 7742581551903320309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_40
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 159
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867841af96fddef20800000000000000
+      internalID: 3453662135523247976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 159
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158785444fa1ccbe0800000000000000
+      internalID: -1455758943126521775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_42
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 159
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73fe0ef7dbe80e390800000000000000
+      internalID: -7791070410805547209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_43
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 159
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caaf0f8bc3cc12590800000000000000
+      internalID: -7700649326653932884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_44
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 127
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f104408ac6e64cd0800000000000000
+      internalID: -2574116379585936906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_45
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 127
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f79a690675dbc1310800000000000000
+      internalID: 1377183769048820095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_46
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 127
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f4025b52ac0a320800000000000000
+      internalID: 2567274050902576918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_47
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 95
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d64025b6601cc40800000000000000
+      internalID: 5530708875394968990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_48
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 95
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84669719057cdbf20800000000000000
+      internalID: 3440124839232890440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_49
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 95
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb97c8db6e4d2cc0800000000000000
+      internalID: -3734242290914845697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_50
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 95
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a260ca7ad88303120800000000000000
+      internalID: 2391473583188346410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_51
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 95
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47657f4a483aab20800000000000000
+      internalID: 3146389181483542346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_52
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 95
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b647851c2e19a4330800000000000000
+      internalID: 3695926847303349355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_53
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 95
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709837af5f396b130800000000000000
+      internalID: 3582213238297954567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_54
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 63
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7181884a95a97770800000000000000
+      internalID: 8609094244755407228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_55
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 63
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61a49cdcf6031560800000000000000
+      internalID: 7283172705490477419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_56
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 63
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c2d99fbdddfd430800000000000000
+      internalID: 3810007746634132609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_57
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 63
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c5a190015a494e0800000000000000
+      internalID: -1975772848218022887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_58
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 63
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996fcb79f7a0c7800800000000000000
+      internalID: 611375192538412697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_59
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 63
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e85cc8127a94a67c0800000000000000
+      internalID: -4077365530459322994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_60
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 63
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a9f769826dfcb80800000000000000
+      internalID: -8372237712446481768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_61
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 63
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b93254c23e2ded100800000000000000
+      internalID: 134776912009831323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_62
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 63
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd705296865facf0800000000000000
+      internalID: -238877119246991919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_63
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 63
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efe033d00bbc3eb0800000000000000
+      internalID: -4738707095683010589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_64
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 63
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88fc7997d5bae1310800000000000000
+      internalID: 1377726953982250888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_65
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 63
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f79ecdf7db35e00800000000000000
+      internalID: 1032377096462761837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_66
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 63
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a9140ca97334fb0800000000000000
+      internalID: -4664823651235685866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_67
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 63
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d23da7194467b70800000000000000
+      internalID: 8896373505538600209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_68
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 63
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bbfad3ff4ec9f120800000000000000
+      internalID: 2448214715241528242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_69
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 64
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f704a66b77b48300800000000000000
+      internalID: 253529219670476786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_70
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 31
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 199bd5e7117326730800000000000000
+      internalID: 3990812768077724049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_71
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 31
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7759715913ab0e820800000000000000
+      internalID: 2945558878417818999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_72
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 31
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5117f49b7f3dbc0800000000000000
+      internalID: -3759388888650410548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_73
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 31
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c9cf5cebc5189b0800000000000000
+      internalID: -5079676930262000494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_74
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 31
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 446189f62974fe4f0800000000000000
+      internalID: -797339914758252988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_75
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 2
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2aff323765726e0800000000000000
+      internalID: -1862424868369227096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_76
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 4
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fdb75202a131b320800000000000000
+      internalID: 2571891434099031541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_77
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 3
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32be105a06bc1a900800000000000000
+      internalID: 694059433537432355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_78
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 31
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569bd86fcf86f3f20800000000000000
+      internalID: 3404555278992914789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_79
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 31
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 297a0e363c02fe2d0800000000000000
+      internalID: -3247340782744459374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_80
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 31
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1c8762ebbbbba70800000000000000
+      internalID: 8843868718635729359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_81
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 31
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fdd29caa37fb1490800000000000000
+      internalID: -7774348500349559312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_82
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 31
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e0ecaf853c73d00800000000000000
+      internalID: 952444633144495677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_83
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 31
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1cd3bd4baf26a700800000000000000
+      internalID: 551180417189010460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_84
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 31
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76db13f603e4dc90800000000000000
+      internalID: -7145837089742137732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_85
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 31
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c536a8d3b9d4e76c0800000000000000
+      internalID: -4143789277986528420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_86
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 31
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c1e2dc5ff48fcd0800000000000000
+      internalID: -2524179674013230054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63705b8bdca29f4b0800000000000000
+      internalID: -5406242814626035914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_88
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb90972d2be722a0800000000000000
+      internalID: -6762177736303666247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_89
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd8ff9a6ca4f2100800000000000000
+      internalID: 85369135059406265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_90
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c01e4065dcdf670800000000000000
+      internalID: 8574235034916031581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_91
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe7ec3a5610f4a730800000000000000
+      internalID: 4009593547060471791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_92
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 0
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93786598a22ac6ef0800000000000000
+      internalID: -113537587014629575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_93
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 8
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a14c3e84e91311f0800000000000000
+      internalID: -1075487416581865055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTogetherCats_94
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 7
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52662228655fae1b0800000000000000
+      internalID: -5626415032546728411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AllTogetherCats_0: -7677916698361898836
+      AllTogetherCats_1: 2628796638078356657
+      AllTogetherCats_10: 4856526670926292763
+      AllTogetherCats_11: -7936427508995838759
+      AllTogetherCats_12: -4729933179600748501
+      AllTogetherCats_13: 2250510959414601262
+      AllTogetherCats_14: -3674581137581339985
+      AllTogetherCats_15: -546556808141820217
+      AllTogetherCats_16: 6391474080652759821
+      AllTogetherCats_17: -8872901847522062030
+      AllTogetherCats_18: -7099195278568909625
+      AllTogetherCats_19: -1825875021298703657
+      AllTogetherCats_2: -1620630170133478153
+      AllTogetherCats_20: -1263893914851563600
+      AllTogetherCats_21: 7658953997497337373
+      AllTogetherCats_22: 8489509502549661716
+      AllTogetherCats_23: 8405381090675327197
+      AllTogetherCats_24: 2983107757933502739
+      AllTogetherCats_25: 8978508973091730774
+      AllTogetherCats_26: -2289204717438664697
+      AllTogetherCats_27: -1396942529944614632
+      AllTogetherCats_28: -6423462779826007637
+      AllTogetherCats_29: -205193419909359771
+      AllTogetherCats_3: 2533511307441971610
+      AllTogetherCats_30: 2636172317808614311
+      AllTogetherCats_31: 919259094340708265
+      AllTogetherCats_32: -1056907539235190801
+      AllTogetherCats_33: -7955154683506034353
+      AllTogetherCats_34: 3539807444400555920
+      AllTogetherCats_35: -139008709820387108
+      AllTogetherCats_36: -930096347925090224
+      AllTogetherCats_37: -1610157808845665693
+      AllTogetherCats_38: -4620181709547721258
+      AllTogetherCats_39: 7742581551903320309
+      AllTogetherCats_4: -5403148163644773510
+      AllTogetherCats_40: 3453662135523247976
+      AllTogetherCats_41: -1455758943126521775
+      AllTogetherCats_42: -7791070410805547209
+      AllTogetherCats_43: -7700649326653932884
+      AllTogetherCats_44: -2574116379585936906
+      AllTogetherCats_45: 1377183769048820095
+      AllTogetherCats_46: 2567274050902576918
+      AllTogetherCats_47: 5530708875394968990
+      AllTogetherCats_48: 3440124839232890440
+      AllTogetherCats_49: -3734242290914845697
+      AllTogetherCats_5: -6034683038563247833
+      AllTogetherCats_50: 2391473583188346410
+      AllTogetherCats_51: 3146389181483542346
+      AllTogetherCats_52: 3695926847303349355
+      AllTogetherCats_53: 3582213238297954567
+      AllTogetherCats_54: 8609094244755407228
+      AllTogetherCats_55: 7283172705490477419
+      AllTogetherCats_56: 3810007746634132609
+      AllTogetherCats_57: -1975772848218022887
+      AllTogetherCats_58: 611375192538412697
+      AllTogetherCats_59: -4077365530459322994
+      AllTogetherCats_6: -4371225313972417461
+      AllTogetherCats_60: -8372237712446481768
+      AllTogetherCats_61: 134776912009831323
+      AllTogetherCats_62: -238877119246991919
+      AllTogetherCats_63: -4738707095683010589
+      AllTogetherCats_64: 1377726953982250888
+      AllTogetherCats_65: 1032377096462761837
+      AllTogetherCats_66: -4664823651235685866
+      AllTogetherCats_67: 8896373505538600209
+      AllTogetherCats_68: 2448214715241528242
+      AllTogetherCats_69: 253529219670476786
+      AllTogetherCats_7: -4339590498716865952
+      AllTogetherCats_70: 3990812768077724049
+      AllTogetherCats_71: 2945558878417818999
+      AllTogetherCats_72: -3759388888650410548
+      AllTogetherCats_73: -5079676930262000494
+      AllTogetherCats_74: -797339914758252988
+      AllTogetherCats_75: -1862424868369227096
+      AllTogetherCats_76: 2571891434099031541
+      AllTogetherCats_77: 694059433537432355
+      AllTogetherCats_78: 3404555278992914789
+      AllTogetherCats_79: -3247340782744459374
+      AllTogetherCats_8: 4100070355464281924
+      AllTogetherCats_80: 8843868718635729359
+      AllTogetherCats_81: -7774348500349559312
+      AllTogetherCats_82: 952444633144495677
+      AllTogetherCats_83: 551180417189010460
+      AllTogetherCats_84: -7145837089742137732
+      AllTogetherCats_85: -4143789277986528420
+      AllTogetherCats_86: -2524179674013230054
+      AllTogetherCats_87: -5406242814626035914
+      AllTogetherCats_88: -6762177736303666247
+      AllTogetherCats_89: 85369135059406265
+      AllTogetherCats_9: -5511264059300492091
+      AllTogetherCats_90: 8574235034916031581
+      AllTogetherCats_91: 4009593547060471791
+      AllTogetherCats_92: -113537587014629575
+      AllTogetherCats_93: -1075487416581865055
+      AllTogetherCats_94: -5626415032546728411
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
