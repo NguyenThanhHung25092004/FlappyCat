@@ -162,13 +162,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e16ab93c56ff2e64d8995ab90a52f807, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  jumpForce: 16
+  jumpForce: 13
   groundLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   movementSmoothing: 0.1
-  runSpeed: 7
-  horizontalInput: Horizontal
   jumpKey: 273
   fallMultiplier: 4
   jumpMultiplier: 4
@@ -177,6 +175,15 @@ MonoBehaviour:
   playerPosition: {fileID: 2164020488259664869}
   groundPosition: {fileID: 6444746372479110910}
   coyoteTime: 0.2
+  holdJumpTimer: 0
+  baseMaxHoldTime: 0.4
+  dynamicMaxHoldTime: 0.4
+  speedHoldMultiplier: 0.02
+  sustainedJumpForce: 10
+  initialSpeed: 7
+  maxSpeed: 25
+  acceleration: 0.1
+  maxAcceleration: 1
 --- !u!50 &4036794316428922309
 Rigidbody2D:
   serializedVersion: 5
@@ -192,7 +199,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 3
+  m_GravityScale: 6
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
