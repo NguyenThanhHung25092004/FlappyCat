@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float jumpForce = 4f;
+    [SerializeField] private float jumpForce = 3f;
     [SerializeField] private LayerMask groundLayers;
     [Range(0, .3f)][SerializeField] private float movementSmoothing = 0.1f;
     [SerializeField] private KeyCode jumpKey = KeyCode.UpArrow;
-    [SerializeField] private float fallMultiplier = 4f;
+    [SerializeField] private float fallMultiplier = 6f;
     [SerializeField] private float interactRadius = 0.5f;
     [SerializeField] private float groundRadius = 0.3f;
     [SerializeField] private Transform playerPosition;
@@ -18,21 +18,20 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float holdJumpTimer = 0.0f;
     [SerializeField] private float baseMaxHoldTime = 0.4f;
     [SerializeField] private float dynamicMaxHoldTime = 0.4f;
-    [SerializeField] private float speedHoldMultiplier = 0.02f;
-    [SerializeField] private float sustainedJumpForce = 15f;
+    [SerializeField] private float sustainedJumpForce = 25f;
 
     [Header("Run Settings")]
     [SerializeField] private float initialSpeed = 5f;
-    [SerializeField] private float maxSpeed = 25f;
+    [SerializeField] private float maxSpeed = 15f;
     [SerializeField] private float acceleration = 0.1f;
     [SerializeField] private float maxAcceleration = 1f;
     private float currentRunSpeed;
 
     private bool isHoldingJump = false;
     private bool jump = false;
-    private bool facingRight = true;
     private float velocityX = 0f;
     private float coyoteTimeCounter;
+    [SerializeField] private float distance = 0f;
 
     private Rigidbody2D rb;
     private Animator ani;
@@ -78,8 +77,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        distance += currentRunSpeed * Time.fixedDeltaTime;
         if(IsGrounded())
         {
+            float velocityRatio = currentRunSpeed / maxSpeed;
+            acceleration = maxAcceleration * (1 - velocityRatio);
+            dynamicMaxHoldTime = baseMaxHoldTime * velocityRatio;
             if (currentRunSpeed < maxSpeed)
             {
                 currentRunSpeed += acceleration * Time.fixedDeltaTime;
@@ -100,9 +103,6 @@ public class PlayerMovement : MonoBehaviour
 
         if(isHoldingJump)
         {
-            float velocityRatio = currentRunSpeed / maxSpeed;
-            acceleration = maxAcceleration * (1 - velocityRatio);
-            dynamicMaxHoldTime = baseMaxHoldTime * velocityRatio;
             if (holdJumpTimer < dynamicMaxHoldTime)
             {
                 rb.AddForce(Vector2.up * sustainedJumpForce, ForceMode2D.Force);
