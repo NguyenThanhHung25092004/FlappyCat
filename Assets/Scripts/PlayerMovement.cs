@@ -1,3 +1,4 @@
+using Unity.Hierarchy;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -6,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask groundLayers;
     [Range(0, .3f)][SerializeField] private float movementSmoothing = 0.1f;
     [SerializeField] private KeyCode jumpKey = KeyCode.UpArrow;
+    [SerializeField] private KeyCode slideKey = KeyCode.DownArrow;
     [SerializeField] private float fallMultiplier = 6f;
     [SerializeField] private float interactRadius = 0.5f;
     [SerializeField] private float groundRadius = 0.3f;
@@ -27,6 +29,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float maxAcceleration = 1f;
     private float currentRunSpeed;
 
+    [Header("Slide Settings")]
+    [SerializeField] private float slideDuration = 0.8f;
+    private bool isSliding = false;
+    private float slideTimer = 0f;
+
     private bool isHoldingJump = false;
     private bool jump = false;
     private float velocityX = 0f;
@@ -36,10 +43,14 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Animator ani;
 
+    private CircleCollider2D upCol;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         ani = GetComponent<Animator>();
+
+        upCol = GetComponent<CircleCollider2D>();
     }
 
     private void Start()
@@ -62,6 +73,8 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(jumpKey) && coyoteTimeCounter > 0f)
         {
+            if (isSliding) StopSlide();
+
             jump = true;
             isHoldingJump = true;
             holdJumpTimer = 0.0f;
@@ -72,6 +85,20 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyUp(jumpKey))
         {
             isHoldingJump = false;
+        }
+
+        if (Input.GetKeyDown(slideKey) && IsGrounded() && !isSliding)
+        {
+            StartSlide();
+        }
+
+        if (isSliding)
+        {
+            slideTimer -= Time.deltaTime;
+            if (slideTimer <= 0)
+            {
+                StopSlide();
+            }
         }
     }
 
@@ -111,6 +138,29 @@ public class PlayerMovement : MonoBehaviour
         }
 
         ApplyGravityMultipliers();
+    }
+
+    private void StartSlide()
+    {
+        isSliding = true;
+        slideTimer = slideDuration;
+        ani.SetBool("IsSliding", true);
+
+        if (upCol != null)
+        {
+            upCol.enabled = false;
+        }
+    }
+
+    private void StopSlide()
+    {
+        isSliding = false;
+        ani.SetBool("IsSliding", false);
+
+        if (upCol != null)
+        {
+            upCol.enabled = true;
+        }
     }
 
     private void ApplyGravityMultipliers()
