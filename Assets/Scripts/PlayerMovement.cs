@@ -31,6 +31,8 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Slide Settings")]
     [SerializeField] private float slideDuration = 0.8f;
+    [SerializeField] private float offsetChange = 0.07f;
+    private Vector2 originalOffset = Vector2.zero;
     private bool isSliding = false;
     private float slideTimer = 0f;
 
@@ -44,6 +46,7 @@ public class PlayerMovement : MonoBehaviour
     private Animator ani;
 
     private CircleCollider2D upCol;
+    private CapsuleCollider2D downCol;
 
     private void Awake()
     {
@@ -51,6 +54,9 @@ public class PlayerMovement : MonoBehaviour
         ani = GetComponent<Animator>();
 
         upCol = GetComponent<CircleCollider2D>();
+        downCol = GetComponent<CapsuleCollider2D>();
+
+        originalOffset = downCol.offset;
     }
 
     private void Start()
@@ -150,6 +156,11 @@ public class PlayerMovement : MonoBehaviour
         {
             upCol.enabled = false;
         }
+
+        if (downCol != null)
+        {
+            downCol.offset = new Vector2(originalOffset.x, originalOffset.y + offsetChange);
+        }
     }
 
     private void StopSlide()
@@ -160,6 +171,11 @@ public class PlayerMovement : MonoBehaviour
         if (upCol != null)
         {
             upCol.enabled = true;
+        }
+
+        if (downCol != null)
+        {
+            downCol.offset = originalOffset;
         }
     }
 

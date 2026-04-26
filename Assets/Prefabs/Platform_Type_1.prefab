@@ -791,7 +791,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: fc03a1a164e11d749a3a3cfdf85d3c1d, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0

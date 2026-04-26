@@ -48,7 +48,7 @@ GameObject:
   - component: {fileID: 822150975071056120}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -162,14 +162,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e16ab93c56ff2e64d8995ab90a52f807, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  jumpForce: 13
+  jumpForce: 8
   groundLayers:
     serializedVersion: 2
     m_Bits: 64
   movementSmoothing: 0.1
   jumpKey: 273
+  slideKey: 274
   fallMultiplier: 4
-  jumpMultiplier: 4
   interactRadius: 0.39
   groundRadius: 0.1
   playerPosition: {fileID: 2164020488259664869}
@@ -178,12 +178,14 @@ MonoBehaviour:
   holdJumpTimer: 0
   baseMaxHoldTime: 0.4
   dynamicMaxHoldTime: 0.4
-  speedHoldMultiplier: 0.02
-  sustainedJumpForce: 10
-  initialSpeed: 7
-  maxSpeed: 25
+  sustainedJumpForce: 50
+  initialSpeed: 5
+  maxSpeed: 20
   acceleration: 0.1
   maxAcceleration: 1
+  slideDuration: 0.8
+  offsetChange: 0.08
+  distance: 0
 --- !u!50 &4036794316428922309
 Rigidbody2D:
   serializedVersion: 5
@@ -199,7 +201,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 6
+  m_GravityScale: 5
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -207,7 +209,7 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
@@ -257,7 +259,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: fc03a1a164e11d749a3a3cfdf85d3c1d, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0

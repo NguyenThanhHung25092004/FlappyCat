@@ -1,19 +1,10 @@
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class GameManager : MonoSingleton<GameManager>
 {
-    public static GameManager instance;
-    private void Awake()
+    protected override void Awake()
     {
-        if(GameManager.instance == null)
-        {
-            GameManager.instance = this;
-            Application.targetFrameRate = 60;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            DestroyImmediate(gameObject);
-        }
+        base.Awake();
+        Application.targetFrameRate = 60;
     }
 }
