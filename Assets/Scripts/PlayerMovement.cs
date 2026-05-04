@@ -27,7 +27,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float maxSpeed = 15f;
     [SerializeField] private float acceleration = 0.1f;
     [SerializeField] private float maxAcceleration = 1f;
-    private float currentRunSpeed;
+    public float currentRunSpeed;
 
     [Header("Slide Settings")]
     [SerializeField] private float slideDuration = 0.8f;

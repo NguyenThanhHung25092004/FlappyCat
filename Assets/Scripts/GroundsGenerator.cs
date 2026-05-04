@@ -20,6 +20,7 @@ public class GroundsGenerator : MonoBehaviour
     private Queue<GameObject> platformPool;
     private Camera cam;
     private float lastPlatformRightEdge;
+    [SerializeField] private ObstacleSpawner obstacleSpawner;
 
     private void Awake()
     {
@@ -32,6 +33,8 @@ public class GroundsGenerator : MonoBehaviour
             platform.SetActive(false);
             platformPool.Enqueue(platform);
         }
+
+        obstacleSpawner = GameObject.FindAnyObjectByType<ObstacleSpawner>();
     }
 
     private void Start()
@@ -50,8 +53,9 @@ public class GroundsGenerator : MonoBehaviour
             float randomGap = Random.Range(minGap, maxGap);
             float randomY = Random.Range(minY, maxY);
 
-            Vector2 spawnPos = new Vector2(lastPlatformRightEdge + randomGap, randomY);
-            SpawnPlatform(spawnPos);
+            Vector2 newPlatform = new Vector2(lastPlatformRightEdge + randomGap, randomY);
+            SpawnPlatform(newPlatform);
+
         }
         GameObject oldestPlatform = platformPool.Peek();
         if (oldestPlatform.activeInHierarchy)
@@ -73,6 +77,8 @@ public class GroundsGenerator : MonoBehaviour
 
         platform.transform.position = position;
         platform.SetActive(true);
+
+        obstacleSpawner.SpawnObstacle(platform);
 
         // Update the right edge variable of the last platform
         // because a new platform has been spawned
