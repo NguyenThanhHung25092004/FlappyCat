@@ -1,25 +1,11 @@
 using System;
 using UnityEngine;
 
-public class TimerManager : MonoBehaviour
+public class TimerManager : MonoSingleton<TimerManager>
 {
-    public static TimerManager instance;
-
     private int playTime = 0;
     private bool isRunning = false;
     public static Action OnValueChange = null;
-    void Awake()
-    {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
     float timecount = 0;
     void Update()
     {

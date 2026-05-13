@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float groundRadius = 0.3f;
     [SerializeField] private Transform playerPosition;
     [SerializeField] private Transform groundPosition;
-    [SerializeField] private float coyoteTime = 0.2f;
+    [SerializeField] private float coyoteTime = 0.1f;
 
     // Chỉnh thời gian giữ nút, Jump Force khi giữ phím nhảy
     [Header("Jump Settings")]
@@ -40,7 +40,6 @@ public class PlayerMovement : MonoBehaviour
     private bool jump = false;
     private float velocityX = 0f;
     private float coyoteTimeCounter;
-    [SerializeField] private float distance = 0f;
 
     private Rigidbody2D rb;
     private Animator ani;
@@ -110,7 +109,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        distance += currentRunSpeed * Time.fixedDeltaTime;
         if(IsGrounded())
         {
             float velocityRatio = currentRunSpeed / maxSpeed;

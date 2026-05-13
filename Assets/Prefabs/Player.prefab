@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 4036794316428922309}
   - component: {fileID: 1818179703313989577}
   - component: {fileID: 822150975071056120}
+  - component: {fileID: 5940047399174758094}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -136,8 +137,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 943709793
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -3781910019033479378, guid: d2969c86aaf1bc44da7d1fc5f90f153d, type: 3}
@@ -174,15 +175,16 @@ MonoBehaviour:
   groundRadius: 0.1
   playerPosition: {fileID: 2164020488259664869}
   groundPosition: {fileID: 6444746372479110910}
-  coyoteTime: 0.2
+  coyoteTime: 0.1
   holdJumpTimer: 0
   baseMaxHoldTime: 0.4
   dynamicMaxHoldTime: 0.4
   sustainedJumpForce: 50
-  initialSpeed: 5
-  maxSpeed: 20
+  initialSpeed: 8
+  maxSpeed: 22
   acceleration: 0.1
   maxAcceleration: 1
+  currentRunSpeed: 0
   slideDuration: 0.8
   offsetChange: 0.08
   distance: 0
@@ -223,7 +225,7 @@ CircleCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: ddeca35c44324cd4db74814f5c92e081, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -247,8 +249,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.01}
-  m_Radius: 0.32
+  m_Offset: {x: 0.14, y: 0.09}
+  m_Radius: 0.25
 --- !u!70 &822150975071056120
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -259,7 +261,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: fc03a1a164e11d749a3a3cfdf85d3c1d, type: 2}
+  m_Material: {fileID: 6200000, guid: ddeca35c44324cd4db74814f5c92e081, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -283,6 +285,18 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.06, y: -0.26}
-  m_Size: {x: 0.5, y: 0.26}
+  m_Offset: {x: -0.05, y: -0.2}
+  m_Size: {x: 0.5, y: 0.36}
   m_Direction: 1
+--- !u!114 &5940047399174758094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9170976057145362118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2e06e996d114d045b52c253f3eba1db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerColision

@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -5,21 +6,18 @@ public class ObstacleSpawner : MonoBehaviour
 {
     [SerializeField] private GameObject robotPrefab;
     [SerializeField] private GameObject slidePrefab;
-    private GameObject activeObstacle;
 
     [Header("Positioning Settings")]
     [SerializeField] private float offsetRobot = -0.1f;
     [SerializeField] private float offsetSlide = 1.5f;
-    [SerializeField] private float robotEdgeBuffer = 2f;
+    [SerializeField] private float robotEdgeBuffer = 4f;
+
+    private List<GameObject> robotPool = new List<GameObject>();
+    private List<GameObject> slidePool = new List<GameObject>();
 
     public void SpawnObstacle(GameObject platform)
     {
-        if (Random.value > 0.3f) return;
-
-        if (activeObstacle != null)
-        {
-            activeObstacle.SetActive(false);
-        }
+        if (Random.value > 0.4f) return;
 
         BoxCollider2D col = platform.GetComponent<BoxCollider2D>();
         float platformCenterX = col.bounds.center.x;
@@ -27,31 +25,38 @@ public class ObstacleSpawner : MonoBehaviour
 
         float spawnX;
         float spawnY;
-        GameObject targetPrefab;
 
         if (Random.value < 0.5)
         {
             spawnX = platformCenterX + Random.Range(halfWidth * 0.5f, halfWidth - robotEdgeBuffer);
             spawnY = platform.transform.position.y + offsetRobot;
-            targetPrefab = robotPrefab;
+
+            GameObject robot = GetObjectFromPool(robotPool, robotPrefab);
+            robot.transform.position = new Vector2(spawnX, spawnY);
+            robot.SetActive(true);
         } else
         {
             spawnX = platformCenterX + Random.Range(-halfWidth * 0.5f, halfWidth * 0.5f);
             spawnY = platform.transform.position.y + offsetSlide;
-            targetPrefab = slidePrefab;
-        }
 
-        UpdateActiveObstacle(targetPrefab, spawnX, spawnY);
+            GameObject slideObstacle = GetObjectFromPool(slidePool, slidePrefab);
+            slideObstacle.transform.position = new Vector2(spawnX, spawnY);
+            slideObstacle.SetActive(true);
+        }
     }
 
-    private void UpdateActiveObstacle(GameObject prefab, float x, float y)
+    private GameObject GetObjectFromPool(List<GameObject> pool, GameObject prefab)
     {
-        if (activeObstacle == null || activeObstacle.name != prefab.name + "(Clone)")
+        foreach (var obj in pool)
         {
-            activeObstacle = Instantiate(prefab);
+            if(!obj.activeInHierarchy)
+            {
+                return obj;
+            }            
         }
 
-        activeObstacle.transform.position = new Vector2(x, y);
-        activeObstacle.SetActive(true);
+        GameObject newObj = Instantiate(prefab);
+        pool.Add(newObj);
+        return newObj;
     }
 }

@@ -9,6 +9,7 @@ public class BulletSpawner : MonoBehaviour
     [SerializeField] private PlayerMovement player;
     [SerializeField] private RedShotPool pool;
     [SerializeField] private GameObject bulletPrefab;
+    [SerializeField] private Animator ani;
     private float timer = 0;
 
     private void OnEnable()
@@ -16,6 +17,7 @@ public class BulletSpawner : MonoBehaviour
         spawnPos = GetComponent<Transform>();
         player = GameObject.FindAnyObjectByType<PlayerMovement>();
         pool = GameObject.FindAnyObjectByType<RedShotPool>();
+        ani = transform.parent.GetComponent<Animator>();
     }
 
     private void Update()
@@ -29,12 +31,15 @@ public class BulletSpawner : MonoBehaviour
         timer += Time.deltaTime;
         if (timer >= dynamicSpawnRate)
         {
-            SpawnBullet();
+            if (ani != null)
+            {
+                ani.SetTrigger("Shoot");
+            }
             timer = 0;
         }
     }
 
-    private void SpawnBullet()
+    public void SpawnBullet()
     {
         GameObject bullet = pool.getBullet();
         bullet.transform.position = spawnPos.position;

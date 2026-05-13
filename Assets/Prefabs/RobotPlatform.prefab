@@ -58,9 +58,10 @@ GameObject:
   - component: {fileID: 4888864131780770857}
   - component: {fileID: 6302767105001710801}
   - component: {fileID: 2381155549394284287}
+  - component: {fileID: 9196265933490329937}
   m_Layer: 0
   m_Name: Drone
-  m_TagString: Untagged
+  m_TagString: Kill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -126,8 +127,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 943709793
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 8557471471960180277, guid: 4fb7eb60204f31f46a31defd6f3502be, type: 3}
@@ -192,7 +193,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -208,6 +209,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.85748863, y: 0.5724017}
   m_EdgeRadius: 0
+--- !u!114 &9196265933490329937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5165363572862442238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 681a73c9dd486254abc0df297e65bc0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletAnimationRelay
+  spawner: {fileID: 5206960186502385607}
 --- !u!1 &6379191517607711634
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,14 +231,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 999710458146599350}
-  - component: {fileID: 793440037837788161}
+  - component: {fileID: 8226766992984597635}
   m_Layer: 0
   m_Name: RobotPlatform
-  m_TagString: Untagged
+  m_TagString: Kill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &999710458146599350
 Transform:
   m_ObjectHideFlags: 0
@@ -242,7 +256,7 @@ Transform:
   - {fileID: 7026028574314635651}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &793440037837788161
+--- !u!114 &8226766992984597635
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -251,10 +265,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6379191517607711634}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89ea952e3807aec459ee1c11214f9d7a, type: 3}
+  m_Script: {fileID: 11500000, guid: 5149658e61aeba1418d29bbf72d4ca6d, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RobotLogic
-  player: {fileID: 0}
+  m_EditorClassIdentifier: Assembly-CSharp::ObstacleLogic
+  player: {fileID: 9170976057145362118, guid: d45f1626251830c418ec581d30b2d07f, type: 3}
 --- !u!1 &6708757261550216465
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,8 +313,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b603e192b1e0b343bf88a072dc9185d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BulletSpawner
-  targetDistance: 10
+  targetDistance: 20
   spawnPos: {fileID: 0}
-  player: {fileID: 0}
+  player: {fileID: 1514847059853077246, guid: d45f1626251830c418ec581d30b2d07f, type: 3}
   pool: {fileID: 8597318422714398253}
   bulletPrefab: {fileID: 2851096158979430404, guid: f9275fa1c353a2c45b942d6d118bf28a, type: 3}
+  ani: {fileID: 6302767105001710801}
