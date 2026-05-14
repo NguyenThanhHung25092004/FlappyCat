@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -11,6 +12,7 @@ public class GameManager : MonoSingleton<GameManager>
 
     [SerializeField] private PlayerMovement player;
     public float currentDistance {  get; private set; }
+    public static event Action OnGameOver;
 
     protected override void Awake()
     {
@@ -70,6 +72,7 @@ public class GameManager : MonoSingleton<GameManager>
 
         CurrentState = GameState.GameOver;
         Time.timeScale = 0f;
+        OnGameOver?.Invoke();
 
         if (TimerManager.Instance != null)
             TimerManager.Instance.StopTimer();
