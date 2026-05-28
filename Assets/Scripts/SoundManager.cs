@@ -1,25 +1,20 @@
 using System;
-using Unity.VisualScripting;
+using System.Collections;
 using UnityEngine;
 
-public class SoundManager : MonoBehaviour
+public class SoundManager : MonoSingleton<SoundManager>
 {
     public Sound[] sounds;
-    public static SoundManager Instance;
 
-    private void Awake()
+    [Header("BGM Playlist Settings")]
+    [SerializeField] private string[] bgmPlaylist;
+    private string currentBGMName;
+
+    private Coroutine bgmCoroutine;
+
+    protected override void Awake()
     {
-        if (Instance == null)
-        {
-            Instance = this;
-        }
-        else
-        {
-            Destroy(gameObject);
-            return;
-        }
-        DontDestroyOnLoad(gameObject);
-
+        base.Awake();
         foreach (Sound s in sounds)
         {
             s.source = gameObject.AddComponent<AudioSource>();
@@ -28,7 +23,53 @@ public class SoundManager : MonoBehaviour
             s.source.pitch = s.pitch;
             s.source.loop = s.loop;
         }
-        PlaySound("TitleTheme");
+
+        PlayRandomBGM();
+    }
+
+    public void PlayRandomBGM()
+    {
+        if (bgmPlaylist == null || bgmPlaylist.Length == 0)
+        {
+            Debug.LogWarning("NO MUSIC ADDED!!");
+            return;
+        }
+
+        // bỏ đồng hồ đếm ngược cũ nếu có
+        if (bgmCoroutine != null)
+        {
+            StopCoroutine(bgmCoroutine);
+        }
+
+        // Dừng bài cũ
+        if (!string.IsNullOrEmpty(currentBGMName))
+        {
+            StopSound(currentBGMName);
+        }
+
+        // Chọn bài mới ngẫu nhiên
+        int randomIndex = UnityEngine.Random.Range(0, bgmPlaylist.Length);
+        string selectedBGM = bgmPlaylist[randomIndex];
+
+        // Tìm thông tin bài hát để lấy độ dài (length)
+        Sound s = Array.Find(sounds, sound => sound.name == selectedBGM);
+        if (s == null) return;
+
+        s.source.Play();
+        currentBGMName = selectedBGM;
+
+        float waitTime = Mathf.Max(0f, s.clip.length - 0.05f);
+        bgmCoroutine = StartCoroutine(WaitAndPlayNextBGM(waitTime));
+
+        Debug.Log($"<color=cyan>SoundManager:</color> CurrentBGM: {selectedBGM}");
+    }
+
+    private IEnumerator WaitAndPlayNextBGM(float duration)
+    {
+        yield return new WaitForSecondsRealtime(duration);
+
+        // Sau khi hết số giây của bài hát, tự động gọi lại hàm chọn bài ngẫu nhiên
+        PlayRandomBGM();
     }
 
     public void PlaySound(string name)
@@ -53,15 +94,20 @@ public class SoundManager : MonoBehaviour
         s.source.Stop();
     }
 
-
+    #region STATIC METHODS FOR EASY ACCESS
     public static void playMusic()
     {
         if (Instance != null)
-            Instance.PlaySound("TitleTheme");
+            Instance.PlayRandomBGM();
     }
+
     public static void stopMusic()
     {
         if (Instance != null)
-            Instance.StopSound("TitleTheme");
+        {
+            if (Instance.bgmCoroutine != null) Instance.StopCoroutine(Instance.bgmCoroutine);
+            if (!string.IsNullOrEmpty(Instance.currentBGMName)) Instance.StopSound(Instance.currentBGMName);
+        }
     }
+    #endregion
 }

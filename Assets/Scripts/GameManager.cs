@@ -56,13 +56,6 @@ public class GameManager : MonoSingleton<GameManager>
     {
         PlayerPrefs.SetFloat("CurrentScore", 0);
         currentDistance = 0;
-
-        if (TimerManager.Instance != null)
-        {
-            TimerManager.Instance.ResetTimer();
-            TimerManager.Instance.StartTimer();
-        }
-
         PlayerPrefs.Save();
     }
 
@@ -71,12 +64,12 @@ public class GameManager : MonoSingleton<GameManager>
         if (CurrentState == GameState.GameOver) return;
 
         CurrentState = GameState.GameOver;
+        if (currentDistance > PlayerPrefs.GetFloat("High Score"))
+        {
+            PlayerPrefs.SetFloat("High Score", currentDistance);
+        }
         Time.timeScale = 0f;
         OnGameOver?.Invoke();
-
-        if (TimerManager.Instance != null)
-            TimerManager.Instance.StopTimer();
-
         Debug.Log("Game Over!");
     }
 
