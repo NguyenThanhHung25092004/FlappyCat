@@ -177,8 +177,8 @@ MonoBehaviour:
   groundPosition: {fileID: 6444746372479110910}
   coyoteTime: 0.1
   holdJumpTimer: 0
-  baseMaxHoldTime: 0.4
-  dynamicMaxHoldTime: 0.4
+  baseMaxHoldTime: 0.3
+  dynamicMaxHoldTime: 0.3
   sustainedJumpForce: 50
   initialSpeed: 8
   maxSpeed: 22
@@ -187,7 +187,6 @@ MonoBehaviour:
   currentRunSpeed: 0
   slideDuration: 0.8
   offsetChange: 0.08
-  distance: 0
 --- !u!50 &4036794316428922309
 Rigidbody2D:
   serializedVersion: 5

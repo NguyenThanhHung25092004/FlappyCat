@@ -47,6 +47,13 @@ public class PlayerMovement : MonoBehaviour
     private CircleCollider2D upCol;
     private CapsuleCollider2D downCol;
 
+    public float JumpForce => jumpForce;
+    public float SustainedJumpForce => sustainedJumpForce;
+    public float BaseMaxHoldTime => baseMaxHoldTime;
+    public float FallMultiplier => fallMultiplier;
+    public float MaxSpeed => maxSpeed;
+    public Rigidbody2D Rb => rb;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
